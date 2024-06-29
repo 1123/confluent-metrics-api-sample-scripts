@@ -1,0 +1,20 @@
+{
+  "aggregations": [
+    {
+      "metric": "io.confluent.kafka.server/received_bytes"
+    }
+  ],
+  "filter": {
+    "field": "resource.kafka.id",
+    "op": "EQ",
+    "value": "lkc-7qz8zw"
+  },
+  "granularity": "PT1M",
+  "group_by": [
+    "metric.topic"
+  ],
+  "intervals": [
+    "2024-06-28T10:56:00+02:00/2024-06-28T10:57:00+02:00"
+  ],
+  "limit": 4
+}
